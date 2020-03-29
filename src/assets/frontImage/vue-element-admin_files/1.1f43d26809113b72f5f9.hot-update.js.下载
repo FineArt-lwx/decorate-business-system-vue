@@ -1,0 +1,42 @@
+webpackHotUpdate(1,{
+
+/***/ "./node_modules/_vue-loader@13.5.0@vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6c4b89f6\",\"hasScoped\":true,\"transformToRequire\":{\"video\":[\"src\",\"poster\"],\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/_vue-loader@13.5.0@vue-loader/lib/selector.js?type=template&index=0&bustCache!./src/views/frontView/stuRegister.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("div", [
+        _c("span", [_vm._v("高校社团学生注册")]),
+        _vm._v(" "),
+        _c("span")
+      ]),
+      _vm._v(" "),
+      _c("div")
+    ])
+  }
+]
+render._withStripped = true
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+if (true) {
+  module.hot.accept()
+  if (module.hot.data) {
+    __webpack_require__("./node_modules/_vue-hot-reload-api@2.3.4@vue-hot-reload-api/dist/index.js")      .rerender("data-v-6c4b89f6", esExports)
+  }
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=1.1f43d26809113b72f5f9.hot-update.js.map

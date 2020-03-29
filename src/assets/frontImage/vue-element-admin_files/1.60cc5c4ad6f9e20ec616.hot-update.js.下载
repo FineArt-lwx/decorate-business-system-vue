@@ -1,0 +1,127 @@
+webpackHotUpdate(1,{
+
+/***/ "./node_modules/_babel-loader@7.1.2@babel-loader/lib/index.js!./node_modules/_vue-loader@13.5.0@vue-loader/lib/selector.js?type=script&index=0&bustCache!./src/views/frontView/stuRegister.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  data: function data() {
+    return {
+      ruleForm: {
+        name: '',
+        region: '',
+        date1: '',
+        date2: '',
+        delivery: false,
+        type: [],
+        resource: '',
+        desc: ''
+      },
+      rules: {
+        name: [{ required: true, message: '请输入活动名称', trigger: 'blur' }, { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }],
+        region: [{ required: true, message: '请选择活动区域', trigger: 'change' }],
+        date1: [{ type: 'date', required: true, message: '请选择日期', trigger: 'change' }],
+        date2: [{ type: 'date', required: true, message: '请选择时间', trigger: 'change' }],
+        type: [{ type: 'array', required: true, message: '请至少选择一个活动性质', trigger: 'change' }],
+        resource: [{ required: true, message: '请选择活动资源', trigger: 'change' }],
+        desc: [{ required: true, message: '请填写活动形式', trigger: 'blur' }]
+      }
+    };
+  },
+
+  methods: {
+    submitForm: function submitForm(formName) {
+      this.$refs[formName].validate(function (valid) {
+        if (valid) {
+          alert('submit!');
+        } else {
+          console.log('error submit!!');
+          return false;
+        }
+      });
+    },
+    resetForm: function resetForm(formName) {
+      this.$refs[formName].resetFields();
+    }
+  }
+
+});
+
+/***/ }),
+
+/***/ "./node_modules/_css-loader@0.28.7@css-loader/index.js?{\"sourceMap\":false}!./node_modules/_vue-loader@13.5.0@vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6c4b89f6\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/_vue-loader@13.5.0@vue-loader/lib/selector.js?type=styles&index=0&bustCache!./src/views/frontView/stuRegister.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/_css-loader@0.28.7@css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ })
+
+})
+//# sourceMappingURL=1.60cc5c4ad6f9e20ec616.hot-update.js.map

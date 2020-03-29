@@ -1,0 +1,386 @@
+webpackHotUpdate(1,{
+
+/***/ "./node_modules/_babel-loader@7.1.2@babel-loader/lib/index.js!./node_modules/_vue-loader@13.5.0@vue-loader/lib/selector.js?type=script&index=0&bustCache!./src/views/frontView/stuRegister.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["a"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/_css-loader@0.28.7@css-loader/index.js?{\"sourceMap\":false}!./node_modules/_vue-loader@13.5.0@vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6c4b89f6\",\"scoped\":true,\"hasInlineConfig\":false}!./node_modules/_vue-loader@13.5.0@vue-loader/lib/selector.js?type=styles&index=0&bustCache!./src/views/frontView/stuRegister.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/_css-loader@0.28.7@css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/_vue-loader@13.5.0@vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6c4b89f6\",\"hasScoped\":true,\"transformToRequire\":{\"video\":[\"src\",\"poster\"],\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/_vue-loader@13.5.0@vue-loader/lib/selector.js?type=template&index=0&bustCache!./src/views/frontView/stuRegister.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      [
+        _c(
+          "el-form",
+          {
+            ref: "ruleForm",
+            staticClass: "demo-ruleForm",
+            attrs: {
+              model: _vm.ruleForm,
+              rules: _vm.rules,
+              "label-width": "100px"
+            }
+          },
+          [
+            _c(
+              "el-form-item",
+              { attrs: { label: "活动名称", prop: "name" } },
+              [
+                _c("el-input", {
+                  model: {
+                    value: _vm.ruleForm.name,
+                    callback: function($$v) {
+                      _vm.$set(_vm.ruleForm, "name", $$v)
+                    },
+                    expression: "ruleForm.name"
+                  }
+                })
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              { attrs: { label: "活动区域", prop: "region" } },
+              [
+                _c(
+                  "el-select",
+                  {
+                    attrs: { placeholder: "请选择活动区域" },
+                    model: {
+                      value: _vm.ruleForm.region,
+                      callback: function($$v) {
+                        _vm.$set(_vm.ruleForm, "region", $$v)
+                      },
+                      expression: "ruleForm.region"
+                    }
+                  },
+                  [
+                    _c("el-option", {
+                      attrs: { label: "区域一", value: "shanghai" }
+                    }),
+                    _vm._v(" "),
+                    _c("el-option", {
+                      attrs: { label: "区域二", value: "beijing" }
+                    })
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              { attrs: { label: "活动时间", required: "" } },
+              [
+                _c(
+                  "el-col",
+                  { attrs: { span: 11 } },
+                  [
+                    _c(
+                      "el-form-item",
+                      { attrs: { prop: "date1" } },
+                      [
+                        _c("el-date-picker", {
+                          staticStyle: { width: "100%" },
+                          attrs: { type: "date", placeholder: "选择日期" },
+                          model: {
+                            value: _vm.ruleForm.date1,
+                            callback: function($$v) {
+                              _vm.$set(_vm.ruleForm, "date1", $$v)
+                            },
+                            expression: "ruleForm.date1"
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("el-col", { staticClass: "line", attrs: { span: 2 } }, [
+                  _vm._v("-")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "el-col",
+                  { attrs: { span: 11 } },
+                  [
+                    _c(
+                      "el-form-item",
+                      { attrs: { prop: "date2" } },
+                      [
+                        _c("el-time-picker", {
+                          staticStyle: { width: "100%" },
+                          attrs: { placeholder: "选择时间" },
+                          model: {
+                            value: _vm.ruleForm.date2,
+                            callback: function($$v) {
+                              _vm.$set(_vm.ruleForm, "date2", $$v)
+                            },
+                            expression: "ruleForm.date2"
+                          }
+                        })
+                      ],
+                      1
+                    )
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              { attrs: { label: "即时配送", prop: "delivery" } },
+              [
+                _c("el-switch", {
+                  model: {
+                    value: _vm.ruleForm.delivery,
+                    callback: function($$v) {
+                      _vm.$set(_vm.ruleForm, "delivery", $$v)
+                    },
+                    expression: "ruleForm.delivery"
+                  }
+                })
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              { attrs: { label: "活动性质", prop: "type" } },
+              [
+                _c(
+                  "el-checkbox-group",
+                  {
+                    model: {
+                      value: _vm.ruleForm.type,
+                      callback: function($$v) {
+                        _vm.$set(_vm.ruleForm, "type", $$v)
+                      },
+                      expression: "ruleForm.type"
+                    }
+                  },
+                  [
+                    _c("el-checkbox", {
+                      attrs: { label: "美食/餐厅线上活动", name: "type" }
+                    }),
+                    _vm._v(" "),
+                    _c("el-checkbox", {
+                      attrs: { label: "地推活动", name: "type" }
+                    }),
+                    _vm._v(" "),
+                    _c("el-checkbox", {
+                      attrs: { label: "线下主题活动", name: "type" }
+                    }),
+                    _vm._v(" "),
+                    _c("el-checkbox", {
+                      attrs: { label: "单纯品牌曝光", name: "type" }
+                    })
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              { attrs: { label: "特殊资源", prop: "resource" } },
+              [
+                _c(
+                  "el-radio-group",
+                  {
+                    model: {
+                      value: _vm.ruleForm.resource,
+                      callback: function($$v) {
+                        _vm.$set(_vm.ruleForm, "resource", $$v)
+                      },
+                      expression: "ruleForm.resource"
+                    }
+                  },
+                  [
+                    _c("el-radio", { attrs: { label: "线上品牌商赞助" } }),
+                    _vm._v(" "),
+                    _c("el-radio", { attrs: { label: "线下场地免费" } })
+                  ],
+                  1
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              { attrs: { label: "活动形式", prop: "desc" } },
+              [
+                _c("el-input", {
+                  attrs: { type: "textarea" },
+                  model: {
+                    value: _vm.ruleForm.desc,
+                    callback: function($$v) {
+                      _vm.$set(_vm.ruleForm, "desc", $$v)
+                    },
+                    expression: "ruleForm.desc"
+                  }
+                })
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "el-form-item",
+              [
+                _c(
+                  "el-button",
+                  {
+                    attrs: { type: "primary" },
+                    on: {
+                      click: function($event) {
+                        return _vm.submitForm("ruleForm")
+                      }
+                    }
+                  },
+                  [_vm._v("立即创建")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "el-button",
+                  {
+                    on: {
+                      click: function($event) {
+                        return _vm.resetForm("ruleForm")
+                      }
+                    }
+                  },
+                  [_vm._v("重置")]
+                )
+              ],
+              1
+            )
+          ],
+          1
+        )
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("span", { staticClass: " block" }, [_vm._v("高校社团学生注册")]),
+      _vm._v(" "),
+      _c("span", { staticClass: " block" }, [
+        _vm._v("College association student registration")
+      ])
+    ])
+  }
+]
+render._withStripped = true
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+if (true) {
+  module.hot.accept()
+  if (module.hot.data) {
+    __webpack_require__("./node_modules/_vue-hot-reload-api@2.3.4@vue-hot-reload-api/dist/index.js")      .rerender("data-v-6c4b89f6", esExports)
+  }
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=1.347a3ccf9ab1fd0bb7db.hot-update.js.map
